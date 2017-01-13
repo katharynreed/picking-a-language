@@ -10,10 +10,26 @@ h2 {
   font-family: 'Montserrat', sans-serif;
 }
 
-.bar{
+img {
+  float: left;
+  width: 200px;
+  
+}
+
+.bar {
   width: 100%;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.result {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-top: 10px;
 }
 
 .tab {
