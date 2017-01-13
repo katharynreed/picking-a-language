@@ -13,6 +13,7 @@ h2 {
 img.logos {
   float: left;
   width: 200px;
+  border-bottom: 50px;
 
 }
 

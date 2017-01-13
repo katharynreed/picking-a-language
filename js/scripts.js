@@ -33,12 +33,14 @@ $(document).ready(function() {
       $("#csharp").show();
     }
   });
+
   $("button.tryagain").click(function() {
       $(".result").hide();
       $("#step3").hide();
     });
 
     $("button.readmore").click(function() {
+      debugger;
       $("#step3").show();
   });
 });
