@@ -42,6 +42,8 @@ $(document).ready(function() {
     $("button.tryagain2").click(function() {
         $(".result").hide();
         $("#step3").hide();
+        $(".tryagain1").show();
+        $(".readmore").show();
       });
 
     $("button.readmore").click(function() {
