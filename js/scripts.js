@@ -51,11 +51,7 @@ $(document).ready(function() {
   });
 
   $("button.readall").click(function() {
-    $("#ruby").show();
-    $("#php").show();
-    $("#css").show();
-    $("#java").show();
-    $("#csharp").show();
+    $(".result").show();
     $(".tryagain2").show();
     $(".resultheader").hide();
     $(".hidestep2").hide();
