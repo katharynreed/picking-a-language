@@ -1,3 +1,33 @@
+body {
+  background-image: url(shattered.png);
+}
+
+.bar{
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.tab {
+  background-color: #F6B540;
+  padding-bottom: 5px;
+  text-shadow: -1px 0 #F7BC53, 0 1px #F7BC53, 1px 0 #F7BC53, 0 -1px #F7BC53;
+}
+
+.center {
+  text-align: center;
+}
+
+.margin {
+  margin-left: 15px;
+  width: 100%;
+}
+
+.yellow {
+  color: #F6B540;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 #ruby {
   display: none;
 }
