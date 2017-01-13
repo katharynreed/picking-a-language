@@ -1,53 +1,198 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="js/jquery-3.1.1.js"></script>
-    <script src="scripts.js"></script>
-    <title>Picking a language.</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="jumbotron">
-        <h1>Picking a track is hard.</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-      <div id=ruby>
-        <div class="panel panel-default">
-          <div class="panel-body">
-            Basic panel example
-          </div>
-        </div>
-      </div>
-      <div id=php>
-        <div class="panel panel-default">
-          <div class="panel-body">
-            Basic panel example
-          </div>
-        </div>
-      </div>
-      <div id=java>
-        <div class="panel panel-default">
-          <div class="panel-body">
-            Basic panel example
-          </div>
-        </div>
-      </div>
-      <div id=css>
-        <div class="panel panel-default">
-          <div class="panel-body">
-            Basic panel example
-          </div>
-        </div>
-      </div>
-      <div id=c#>
-        <div class="panel panel-default">
-          <div class="panel-body">
-            Basic panel example
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.1.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Picking a language.</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Picking a track is hard.</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div id=quiz>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h1>Step 1: Finding what suits you best.</h1>
+          <p>With this quiz, we'll match you with the Epicodus track that fits you best. Answer a few basic questions below and your future will be determined.</p>
+          <!-- QUESTION 1 -->
+          <p><strong>Which of these is true?<strong></p>
+          <div class="form-group">
+            <div class="radio">
+              <label>
+              <input type="radio" name="question1" value="ruby" checked>
+              I love gem stones.
+              </label>
+              <br>
+              <label>
+              <input type="radio" name="question1" value="php">
+              I love personal home pages and hypertext preprocessors.
+              </label>
+              <br>
+              <label>
+              <input type="radio" name="question1" value="css">
+              I wish I had gone to art school.
+              </label>
+              <br>
+              <label>
+              <input type="radio" name="question1" value="java">
+              I love coffee related names, but am not into scripts.
+              </label>
+              <br>
+              <label> <input type="radio" name="question1" value="ruby">
+              I am excited by sharp letters.
+              </label>
+            </div>
+            <!-- QUESTION 2 -->
+            <p><strong>Which of these is <em>not</em> true?<strong></p>
+              <div class="radio">
+                <label>
+                <input type="radio" name="question2" value="ruby" checked>
+                I hate gem stones.
+                </label>
+                <br>
+                <label>
+                <input type="radio" name="question2" value="php">
+                I hate personal home pages and hypertext preprocessors.
+                </label>
+                <br>
+                <label>
+                <input type="radio" name="question2" value="css">
+                I am so glad I never went to art school.
+                </label>
+                <br>
+                <label>
+                <input type="radio" name="question2" value="java">
+                I hate coffee related names and am enthusiastic about scripts.
+                </label>
+                <br>
+                <label> <input type="radio" name="question2" value="ruby">
+                I am <em>not</em> excited by sharp letters.
+                </label>
+              </div>
+              <!-- QUESTION 3 -->
+              <p><strong>Which of these is <em>not</em> true?<strong></p>
+                <div class="radio">
+                  <label>
+                  <input type="radio" name="question3" value="ruby" checked>
+                  I hate gem stones.
+                  </label>
+                  <br>
+                  <label>
+                  <input type="radio" name="question3" value="php">
+                  I hate personal home pages and hypertext preprocessors.
+                  </label>
+                  <br>
+                  <label>
+                  <input type="radio" name="question3" value="css">
+                  I am so glad I never went to art school.
+                  </label>
+                  <br>
+                  <label>
+                  <input type="radio" name="question3" value="java">
+                  I hate coffee related names and am enthusiastic about scripts.
+                  </label>
+                  <br>
+                  <label> <input type="radio" name="question3" value="ruby">
+                  I am <em>not</em> excited by sharp letters.
+                  </label>
+                </div>
+                <!-- QUESTION 4 -->
+                <p><strong>Which of these is <em>not</em> true?<strong></p>
+                  <div class="radio">
+                    <label>
+                    <input type="radio" name="question4" value="ruby" checked>
+                    I hate gem stones.
+                    </label>
+                    <br>
+                    <label>
+                    <input type="radio" name="question4" value="php">
+                    I hate personal home pages and hypertext preprocessors.
+                    </label>
+                    <br>
+                    <label>
+                    <input type="radio" name="question4" value="css">
+                    I am so glad I never went to art school.
+                    </label>
+                    <br>
+                    <label>
+                    <input type="radio" name="question4" value="java">
+                    I hate coffee related names and am enthusiastic about scripts.
+                    </label>
+                    <br>
+                    <label> <input type="radio" name="question4" value="ruby">
+                    I am <em>not</em> excited by sharp letters.
+                    </label>
+                  </div>
+                  <!-- QUESTION 5 -->
+                  <p><strong>Which of these is <em>not</em> true?<strong></p>
+                    <div class="radio">
+                      <label>
+                      <input type="radio" name="question5" value="ruby" checked>
+                      I hate gem stones.
+                      </label>
+                      <br>
+                      <label>
+                      <input type="radio" name="question5" value="php">
+                      I hate personal home pages and hypertext preprocessors.
+                      </label>
+                      <br>
+                      <label>
+                      <input type="radio" name="question5" value="css">
+                      I am so glad I never went to art school.
+                      </label>
+                      <br>
+                      <label>
+                      <input type="radio" name="question5" value="java">
+                      I hate coffee related names and am enthusiastic about scripts.
+                      </label>
+                      <br>
+                      <label> <input type="radio" name="question5" value="ruby">
+                      I am <em>not</em> excited by sharp letters.
+                      </label>
+                    </div>
           </div>
         </div>
       </div>
     </div>
+    <div id=ruby>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          Basic panel example
+        </div>
+      </div>
+    </div>
+    <div id=php>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          Basic panel example
+        </div>
+      </div>
+    </div>
+    <div id=java>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          Basic panel example
+        </div>
+      </div>
+    </div>
+    <div id=css>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          Basic panel example
+        </div>
+      </div>
+    </div>
+    <div id=c#>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          Basic panel example
+        </div>
+        </div>
+      </div>
+    </div>
   </body>
-</html>
+  </html>
