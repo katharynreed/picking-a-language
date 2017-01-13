@@ -13,7 +13,7 @@ h2 {
 img {
   float: left;
   width: 200px;
-  
+
 }
 
 .bar {
@@ -22,7 +22,7 @@ img {
   padding-bottom: 5px;
 }
 
-.result {
+.resultheader {
   text-align: center;
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
@@ -69,5 +69,9 @@ img {
 }
 
 #csharp {
+  display: none;
+}
+
+#step3 {
   display: none;
 }

@@ -33,4 +33,9 @@ $(document).ready(function() {
       $("#csharp").show();
     }
   });
+  $("button.tryagain").click(function() {
+      $(".result").hide();
+    $("button.readmore").click(function() {
+      $("#step3").show();
+  });
 });
