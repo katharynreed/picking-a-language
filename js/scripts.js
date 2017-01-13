@@ -40,7 +40,14 @@ $(document).ready(function() {
     });
 
     $("button.readmore").click(function() {
-      debugger;
       $("#step3").show();
+  });
+
+  $("button.readall").click(function() {
+    $("#ruby").show();
+    $("#php").show();
+    $("#css").show();
+    $("#java").show();
+    $("#csharp").show();
   });
 });
