@@ -2,7 +2,6 @@ $(document).ready(function() {
   $("form#quiz").submit(function(event) {
     event.preventDefault();
     var tracks = $("input:radio:checked");
-    var languages = []
     var numRuby = 0;
     var numPhp = 0;
     var numCss = 0;
@@ -21,16 +20,16 @@ $(document).ready(function() {
         numCsharp++;
       }
     }
-    debugger;
-    if (tracks === "ruby") {
+    var maxCount = Math.max(numRuby, numPhp, numCss, numJava, numCsharp)
+    if (numRuby === maxCount) {
       $("#ruby").show();
-    } else if (tracks === "php") {
+    } else if (numPhp === maxCount) {
       $("#php").show();
-    } else if (tracks === "css") {
+    } else if (numCss === maxCount) {
       $("#css").show();
-    } else if (tracks === "java") {
+    } else if (numJava === maxCount) {
       $("#java").show();
-    } else if (tracks === "csharp") {
+    } else if (numCsharp === maxCount) {
       $("#csharp").show();
     }
   });
