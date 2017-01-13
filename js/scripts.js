@@ -34,10 +34,15 @@ $(document).ready(function() {
     }
   });
 
-  $("button.tryagain").click(function() {
+  $("button.tryagain1").click(function() {
       $(".result").hide();
       $("#step3").hide();
     });
+
+    $("button.tryagain2").click(function() {
+        $(".result").hide();
+        $("#step3").hide();
+      });
 
     $("button.readmore").click(function() {
       $("#step3").show();
@@ -49,5 +54,11 @@ $(document).ready(function() {
     $("#css").show();
     $("#java").show();
     $("#csharp").show();
+    $(".tryagain2").show();
+    $(".resultheader").hide();
+    $(".hidestep2").hide();
+    $(".readmore").hide();
+    $(".tryagain1").hide();
+    $(".readall").hide();
   });
 });
