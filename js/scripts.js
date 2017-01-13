@@ -44,6 +44,8 @@ $(document).ready(function() {
     $("#step3").hide();
     $(".tryagain1").show();
     $(".readmore").show();
+    $(".resultheader").show();
+    $(".readall").show();
   });
 
   $("button.readmore").click(function() {
