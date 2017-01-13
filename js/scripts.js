@@ -35,6 +35,7 @@ $(document).ready(function() {
   });
   $("button.tryagain").click(function() {
       $(".result").hide();
+      $("#step3").hide();
     });
 
     $("button.readmore").click(function() {
