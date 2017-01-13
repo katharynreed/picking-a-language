@@ -35,19 +35,19 @@ $(document).ready(function() {
   });
 
   $("button.tryagain1").click(function() {
-      $(".result").hide();
-      $("#step3").hide();
-    });
+    $(".result").hide();
+    $("#step3").hide();
+  });
 
-    $("button.tryagain2").click(function() {
-        $(".result").hide();
-        $("#step3").hide();
-        $(".tryagain1").show();
-        $(".readmore").show();
-      });
+  $("button.tryagain2").click(function() {
+    $(".result").hide();
+    $("#step3").hide();
+    $(".tryagain1").show();
+    $(".readmore").show();
+  });
 
-    $("button.readmore").click(function() {
-      $("#step3").show();
+  $("button.readmore").click(function() {
+    $("#step3").show();
   });
 
   $("button.readall").click(function() {
